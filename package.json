@@ -1,0 +1,16 @@
+{
+  "name": "hola-mundo",
+  "version": "1.0.0",
+  "description": "Es el primer proyecto js con node en Open Bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "holamundo",
+    "firstproject"
+  ],
+  "author": "Fabián Blanco Wuest",
+  "license": "ISC"
+}
