@@ -1,16 +1,15 @@
 class Estudiante {
-	constructor(nombre) {
-		this.nombre = nombre;
-		this.asignaturas = ["Javascript", "HTML", "CSS"];
-	}
+	nombre = "Fabián";
+	asignaturas = ["Javascript", "HTML", "CSS"];
 
 	obtenDatos() {
-		return `Mi nombre es ${
-			this.nombre
-		} y tengo las siguientes asignaturas: ${this.asignaturas.join(", ")}`;
+		return {
+			nombre: this.nombre,
+			asignaturas: this.asignaturas.join(", "),
+		};
 	}
 }
 
-const estudiante1 = new Estudiante("Carlos");
+const estudiante1 = new Estudiante();
 
 console.log(estudiante1.obtenDatos());
